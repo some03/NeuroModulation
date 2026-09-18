@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-18",
+  "python": "3.12.14",
+  "torch": "2.8.0+cpu",
+  "numpy": "2.3.5",
+  "h5py": "3.16.0",
+  "matplotlib": "3.10.8",
+  "device": "cpu",
+  "tests_passed": 8,
+  "tests_total": 8,
+  "editable_install": "passed",
+  "toy_training_command": "python -m yaminabe_snn.train --dataset toy --epochs 10 --test --device cpu",
+  "toy_result": {
+    "dataset": "toy",
+    "best_epoch": 10,
+    "best_validation_loss": 0.24809126964971132,
+    "test": {
+      "loss": 0.24786990508437157,
+      "accuracy": 1.0,
+      "mean_rate_hz": 75.89759677648544
+    }
+  },
+  "not_verified": [
+    "SHD full-data training",
+    "CUDA execution",
+    "Biological fidelity",
+    "Connectome ingestion beyond a binary adjacency mask"
+  ]
+}

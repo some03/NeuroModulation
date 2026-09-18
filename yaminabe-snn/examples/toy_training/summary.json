@@ -1,0 +1,10 @@
+{
+  "dataset": "toy",
+  "best_epoch": 10,
+  "best_validation_loss": 0.24809126964971132,
+  "test": {
+    "loss": 0.24786990508437157,
+    "accuracy": 1.0,
+    "mean_rate_hz": 75.89759677648544
+  }
+}

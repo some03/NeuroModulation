@@ -1,0 +1,14 @@
+{
+  "n_inputs": 16,
+  "n_hidden": 256,
+  "n_outputs": 2,
+  "dt_ms": 1.0,
+  "tau_mem_ms": 20.0,
+  "tau_syn_ms": 5.0,
+  "tau_readout_ms": 30.0,
+  "threshold": 1.0,
+  "connection_probability": 1.0,
+  "recurrent_row_bound": 2.0,
+  "duration_ms": 160.0,
+  "seed": 42
+}

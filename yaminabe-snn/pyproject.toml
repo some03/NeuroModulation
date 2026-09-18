@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yaminabe-snn"
+version = "0.1.0"
+description = "A small recurrent LIF laboratory with replaceable connectivity and modulation"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2,<3", "numpy>=1.24,<3", "matplotlib>=3.7,<4", "h5py>=3.10,<4"]
+
+[tool.setuptools.packages.find]
+include = ["yaminabe_snn*"]
